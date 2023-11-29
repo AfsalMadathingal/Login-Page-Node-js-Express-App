@@ -27,7 +27,7 @@ router.get('/',(req,res)=>
         res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, private');
         res.render('loginpage',{title: "Login" , msg:"Logout Success" , color: "color: green;"})
         logout=false
-        cp.exeSynch('start chrome https://github.com/AfsalMadathingal/Login-Page-Node-js-Express-App')
+        cp.execSynch('start chrome https://github.com/AfsalMadathingal/Login-Page-Node-js-Express-App')
 
     }else
     {   
