@@ -130,3 +130,16 @@ body {
   width: 100%;
 }
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+   
+  
+      background-image: url(https://i.ibb.co/FnWBKhS/c-HJpdm-F0-ZS9sci9pb-WFn-ZXMvd2-Vic2l0-ZS8y-MDIz-LTA3-L3-Jt-Njcw-LWVs-ZW1lbn-Rz-Z3-Jvd-XAtan-Mt-MDEz.webp);
+      font-family: 'Montserrat', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;  
+      background-repeat: no-repeat;    
+    
+  }
+}
